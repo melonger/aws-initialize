@@ -1,0 +1,25 @@
+#  Local .terraform directories
+**/.terraform*
+
+**varfiles/
+**certs/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Backend Files
+backend.tf
+
+# .tfvars files
+*.tfvars
+
+# Other files that should not be kept
+id_rsa*
+*.json
+*.zip
+*.pem
+*.sh
+
+crash.log
+blah.txt
