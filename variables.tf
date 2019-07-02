@@ -9,3 +9,8 @@ variable "tags" {
     costcenter = "ExampleClient"
   }
 }
+
+variable "terraform_bucket_lifecycle" {
+  description = "Destroy Bucket or not"
+  default     = false
+}
